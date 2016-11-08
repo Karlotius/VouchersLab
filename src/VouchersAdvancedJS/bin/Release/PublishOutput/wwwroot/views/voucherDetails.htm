@@ -1,0 +1,128 @@
+﻿<script src="../js/voucherDetails.js"></script>
+
+<div id="divVoucherDetails" class="container">
+    <div class="clearfix">
+        <ul class="nav-details">
+            <li>
+                <a id="btnSaveVoucher" href="javascript:saveVoucherHeader()" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-save"></span>Save Voucher</a>
+            </li>
+        </ul>
+    </div>
+    <div class="row clearfix">
+        <div class="form-inline" role="form">
+            <!--Voucher Head Data-->
+            <fieldset>
+                <legend>Voucher</legend>
+                <div class="form-group">
+                    <input id="txtVoucherText" size="60" name="textinput" placeholder="Text:" type="text" class="form-control input-sm"/>
+                </div>
+                <div class="form-group">
+                    <input id="dpDate" size="10" name="date" type="text" placeholder="Date:" class="span7 form-control input-sm"/>
+                </div>
+                <div class="form-group">
+                    <input id="txtAmount" size="20" type="text" placeholder="0" readonly class="span7 form-control input-sm"/>
+                </div>
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group">
+                    <label class="radio-inline" for="rbExpense">
+                        <input type="radio" name="radios" id="rbExpense" value="Expense" checked="checked"/>
+                        Expense:
+                    </label>
+                </div>
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group">
+                    <label class="radio-inline" for="rbIncome">
+                        <input type="radio" name="radios" id="rbIncome" value="Income"/>
+                        Income:
+                    </label>
+                </div>
+                <!-- Multiple Checkboxes (inline) -->
+                <div class="form-group">
+                    <label class="checkbox-inline" for="chkPaid">
+                        <input type="checkbox" name="checkboxes" id="chkPaid" value="Paid"/>
+                        Paid:
+                    </label>
+                </div>
+                <p></p>
+
+                <div> </div>
+                <!--Voucher Details Table-->
+                <fieldset> </fieldset>
+                <legend>All Details</legend>
+
+                <div class="row clearfix"> </div>
+                <div class="clearfix">
+                    <ul class="nav-details">
+                        <li>
+                            <a id="btnNew" href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-open"></span> New</a>
+                        </li>
+                        <li>
+                            <a id="btnSave" href="#" class="btn btn-xs btn-default"><span class="glyphicon glyphicon-save"></span> Save</a>
+                        </li>
+                        <li>
+                            <a id="btnDelete" href="#" class="btn btn-xs btn-danger"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="spacer-big"></p>
+                <div class="table-responsive">
+                    <table cellspacing="0" cellpadding="0" class="table table-hover">
+                        <colgroup>
+                            <col style="width: 50%"/>
+                            <col style="width: 15%"/>
+                            <col style="width: 30%"/>
+                            <col style="width: 5%"/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th scope="col">Text</th>
+                            <th scope="col">Amount</th>
+                            <th scope="col">Account</th>
+                            <th scope="col">&nbsp;</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tblVoucherDetailsBody"></tbody>
+                    </table>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <!--Selected Voucher Details-->
+    <div style="display: none" class="row clearfix vDetails">
+        <div class="form-inline">
+            <fieldset>
+                <!-- Form Name -->
+                <legend>Current Detail</legend>
+                <!-- Text input-->
+                <div class="form-group">
+                    <div class="">
+                        <input id="txtDetailsText" name="textinput" size="60" type="text" placeholder="Text:" class="form-control input-sm vdElement"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="">
+                        <input id="txtDetailsAmount" name="textinput" size="20" type="number" placeholder="Amount" class="form-control input-sm vdElement"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="">
+                        <select id="ddAccount" class="form-control input-sm vdElement">
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+            </fieldset>
+        </div>
+    </div>
+    <p></p>
+
+    <div style="display: none" class="form-horizontal vDetails">
+        <div class="form-group">
+            <div class="">
+                <textarea class="form-control vdElement" rows="4" id="txtComment" placeholder="Comment"></textarea>
+            </div>
+        </div>
+    </div>
+</div>

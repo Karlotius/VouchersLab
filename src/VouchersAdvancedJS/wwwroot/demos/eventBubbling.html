@@ -1,0 +1,19 @@
+﻿<link href="/css/eventBubbling.css" rel="stylesheet" />
+
+<div class="bubblingContainer">
+    <ul>
+        <li><a href="javascript:removeAll()">Remove All</a></li>
+        <li><a href="javascript:addEvt(1)">Add to Outer</a></li>
+        <li><a href="javascript:addEvt(2)">Add to Middle</a></li>
+        <li><a href="javascript:addEvt(3)">Add to Inner</a></li>
+        <li><a href="javascript:tooglePropagation()">Toggle Propagation</a></li>
+    </ul>
+    <div id="status"></div>
+
+    <div id="div1" class="bubbleDiv">
+        <div id="div2" class="bubbleDiv">
+            <div id="div3" class="bubbleDiv">
+            </div>
+        </div>
+    </div>
+</div>

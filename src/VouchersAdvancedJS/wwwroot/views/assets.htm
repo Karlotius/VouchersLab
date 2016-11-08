@@ -1,0 +1,32 @@
+﻿<script src="../js/assets.js"></script>
+<div id="container" style="width: 100%">
+    <div style="text-align: right; padding-bottom: 10px">
+        <a onclick="newAsset()" class="btn btn-xs btn-default">Add an Asset</a>
+    </div>
+    <div id="tblAsset" class="tab-content">
+        <table class="table tblAsset table-striped table-bordered table-hover">
+            <colgroup>
+                <col style="width: 10%" />
+                <col style="width: 10%" />
+                <col style="width: 40%" />
+                <col style="width: 20%" />
+                <col style="width: 10%" />
+                <col style="width: 10%" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Text</th>
+                    <th>PurchaseDate</th>
+                    <th>ActivatedOn</th>
+                    <th>Periods</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody id="tblAssetBody"></tbody>
+        </table>
+    </div>
+    <div class="col-md-12 text-center">
+        <ul class="pagination pagination-lg pager" id="tblAssetPager"></ul>
+    </div>
+</div>

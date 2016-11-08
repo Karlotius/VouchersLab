@@ -1,0 +1,30 @@
+﻿<script src="../js/vouchers.js"></script>
+<div id="container" style="width: 100%">
+    <div style="text-align: right; padding-bottom: 10px">
+        <a onclick="newVoucher()" class="btn btn-xs btn-default">Add a Voucher</a>
+    </div>
+    <div id="tblVoucher" class="tab-content">
+        <table class="table tblVoucher table-striped table-bordered table-hover">
+            <colgroup>
+                <col style="width: 10%"/>
+                <col style="width: 10%"/>
+                <col style="width: 50%"/>
+                <col style="width: 20%"/>
+                <col style="width: 10%"/>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Text</th>
+                <th>Amount</th>
+                <th>Paid</th>
+            </tr>
+            </thead>
+            <tbody id="tblVoucherBody"></tbody>
+        </table>
+    </div>
+    <div class="col-md-12 text-center">
+        <ul class="pagination pagination-lg pager" id="tblVoucherPager"></ul>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+﻿<script src="../js/assetDetails.js"></script>
+<div class="container">
+    <form class="">
+        <div class="form-group">
+            <label for="assetid" class="col-sm-2 col-form-label">ID</label>
+            <div class="col-sm-10">
+                <input type="number" id="assetid" name="assetid" readonly class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="text" class="col-sm-2 col-form-label">Text</label>
+            <div class="col-sm-10">
+                <input type="Text" id="text" name="text" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="purchaseDate" class="col-sm-2 col-form-label">Purchase Date</label>
+            <div class="col-sm-8">
+                <input type="Text" id="purchaseDate" name="purchaseDate" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-8">
+                <button type="reset" class="btn btn-xs" onclick="loadPage('assets.htm', 'assets.js')">Cancel</button>
+                <button type="submit" class="btn btn-xs" onclick="saveAsset()">Save</button>
+                <a id="btnDelete" href="#" class="btn btn-xs btn-danger" onclick="deleteAsset()"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+            </div>
+        </div>
+    </form>
+</div>

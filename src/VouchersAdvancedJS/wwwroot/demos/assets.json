@@ -1,0 +1,30 @@
+﻿[
+  {
+    "ID": 1,
+    "Text": "Schreibwaren",
+    "PurchaseDate": "01.01.2016",
+    "ActivatedOn" : "03.11.2016",
+    "Amount": 100,
+    "Periods" : 20,
+    "Value": 42
+  },
+  {
+    "ID": 2,
+    "Text": "Foo",
+    "PurchaseDate": "02.02.2016",
+    "ActivatedOn": "05.11.2016",
+    "Amount": 500,
+    "Periods": 10,
+    "Value": 21
+  },
+  {
+    "ID": 3,
+    "Text": "Bar",
+    "PurchaseDate": "03.03.2016",
+    "ActivatedOn": "07.11.2016",
+    "Amount": 700,
+    "Periods": 20,
+    "Value": 31
+  }
+]
+
