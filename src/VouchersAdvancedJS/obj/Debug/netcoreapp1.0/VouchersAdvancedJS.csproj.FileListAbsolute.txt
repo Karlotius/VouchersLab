@@ -1,0 +1,11 @@
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\bin\Debug\netcoreapp1.0\VouchersAdvancedJS.deps.json
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\bin\Debug\netcoreapp1.0\VouchersAdvancedJS.runtimeconfig.json
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\bin\Debug\netcoreapp1.0\VouchersAdvancedJS.runtimeconfig.dev.json
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\bin\Debug\netcoreapp1.0\VouchersAdvancedJS.dll
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\bin\Debug\netcoreapp1.0\VouchersAdvancedJS.pdb
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.csprojResolveAssemblyReference.cache
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.csproj.CoreCompileInputs.cache
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.AssemblyInfoInputs.cache
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.AssemblyInfo.cs
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.dll
+C:\Dev\Projects\VouchersLab\src\VouchersAdvancedJS\obj\Debug\netcoreapp1.0\VouchersAdvancedJS.pdb
